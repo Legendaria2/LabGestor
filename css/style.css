@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root{
+    --primary-color: #112b3c;
+    --primary-light-color: #205375;
+    --secondary-color: #f66b0e;
+    --third-color: #efefef;
+    --primary-text-color: #000000;
+    --heders-font: font-family: "Comfortaa", sans-serif;
+    --text-font: font-family: "Lexend Deca", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--text-font);
+}
+
+html{
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+                /* ESTILOS DEL HOME DEL PROYECTO */
+
+/* ----------------------------------------------------------------------- */
+
+body{
+    height: 100vh;
+}
+
+.container-home{
+    background-color: var(--third-color);
+    height: 500px;
+}
+
+.container-home h1{
+    color: white;
+    background-color: var(--secondary-color);
+    font-family: var(--heders-font);
+}
+
+.container-home a{
+    font-size: 30px;
+}
+
+.container-home .row .secondary-card-color{
+    background: var(--primary-color);
+}
+
+.btn-primary-labgestor{
+    background: var(--primary-light-color);
+    color: white;
+    padding: 10px 50px;
+    border: 2px solid transparent;
+}
+
+.btn-primary-labgestor:hover{
+    background: transparent;
+    color: var(--primary-color);
+    border:  2px solid var(--primary-color);
+}
+
+.btn-secondary-labgestor{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 50px;
+    border: 2px solid transparent;
+    font-weight: 500 !important;
+
+}
+
+
+.btn-secondary-labgestor:hover{
+    background: transparent;
+    color: var(--secondary-color);
+    border:  2px solid var(--secondary-color);
+    font-weight: 500 !important;
+}
+/* ----------------------------------------------------------------------- */
+
+        /* ESTILOS DE LA VISTA DE REGISTRO DE USUARIOS */
+
+/* ----------------------------------------------------------------------- */
+
+
+.btn-light-labgestor-light{
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-out .25s;
+}
+
+.btn-light-labgestor-light:hover{
+    transform: scale(1.2);
+}
+
+form{
+    background: var(--primary-color);
+}
+
+form label{
+    color: white;
+}
+
+.register-art{
+    background-color: var(--primary-color);
+}
